@@ -1,0 +1,9 @@
+h1 {
+    @include font-heading;
+    color: $dark;
+    border-bottom: 3px solid gray;
+    text-transform: uppercase;
+}
+p {
+    @include font-alt;
+}

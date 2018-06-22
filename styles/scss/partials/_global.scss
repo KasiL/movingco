@@ -1,5 +1,21 @@
-h1{
-    font-family: monospace;
-    border-bottom: 3px solid gray;
-    text-transform: uppercase;
+// color
+$primary: #4f7aa1;
+$white: #fff;
+$dark: #42444e;
+$accent: #fff5eb;
+
+@mixin font-heading {
+    font-family: 'Montserrat',sans-serif;
+}
+
+@mixin font-body {
+    font-family: 'Merriweather', serif;
+}
+
+@mixin font-alt {
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: $white;
 }
