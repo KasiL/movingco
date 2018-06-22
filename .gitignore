@@ -1,0 +1,13 @@
+# Mac files
+
+.DS_Store
+
+
+
+# NODE
+
+.node_modules
+node_modules
+*/node_modules
+/node_modules/*
+package-lock.json
